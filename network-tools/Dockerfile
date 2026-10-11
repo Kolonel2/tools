@@ -9,6 +9,9 @@ RUN apt-get update \
       iproute2 \
       dnsutils \
       netcat-openbsd \
+      vim \
+      7zip \
+      rsync \
  && rm -rf /var/lib/apt/lists/*
 
 # Keep the container alive so you can exec/console into it

@@ -1,7 +1,7 @@
 # network-tools
 
 Minimal Ubuntu 26.04 image for debugging containers on Cycle.io.
-Includes: curl, ping, ssh, plus ip, dig/nslookup, and nc.
+Includes: curl, ping, ssh, plus ip, dig/nslookup, nc, vim, 7zip, and rsync.
 
 ## Local
     docker compose up -d --build
