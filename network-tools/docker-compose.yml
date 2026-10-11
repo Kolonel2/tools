@@ -1,0 +1,10 @@
+services:
+  network-tools:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: network-tools:latest
+    container_name: network-tools
+    restart: unless-stopped
+    cap_add:
+      - NET_RAW   # required for ping
